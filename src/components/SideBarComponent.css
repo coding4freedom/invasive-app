@@ -1,0 +1,21 @@
+
+.side-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 3px solid #aabef3;
+}
+.logo__side-bar {
+    width: 70px;
+    height: auto;
+}
+span {
+    color: green;
+}

@@ -1,4 +1,5 @@
 
+import SideBarComponent from './components/SideBarComponent';
 import './App.css';
 
 function App() {
@@ -6,9 +7,7 @@ function App() {
 
   return (
     <>
-      <div>
-        Site is Working!
-      </div>
+      <SideBarComponent />
       
     </>
   )
