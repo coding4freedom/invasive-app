@@ -2,6 +2,7 @@ import react from 'react';
 import { Link } from 'react-router-dom';
 import './SideBarComponent.css';
 import logo from '../assets/logo.png'
+import SideBarTabComponents from './SideBarTabComponents';
 
 const SideBarComponent = () => {
     const tabs = [
@@ -14,12 +15,14 @@ const SideBarComponent = () => {
     ];
 
     return(
-        <section className='side-bar'>
+        <div className='side-bar'>
             <img src={logo} alt="logo icon" className='logo__side-bar'/>
             <div className="tabs">
-                
+                { tabs.map((tab) => (
+                    <SideBarTabComponents key={tab.id} tab={tab} />
+                ))}
             </div>        
-        </section>
+        </div>
     )
 }
 

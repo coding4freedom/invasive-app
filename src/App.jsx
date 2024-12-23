@@ -14,19 +14,20 @@ function App() {
 
   return (
     <Router>
-      <SideBarComponent />
-      <div className="main-content">
-        Welcome!
-        <Routes>
-          <Route path='/home' element={<HomePage />} />
-          <Route path='/pythons' element={<PythonPage />} />
-          <Route path='/wild_hogs' element={<HogPage />} />
-          <Route path='/carps' element={<CarpPage />} />
-          <Route path='/about' element={<AboutPage />} />
-          <Route path='/contact' element={<ContactPage />} />
+      <div className="container">
+        <SideBarComponent />
+        <div className="main-content">        
+          <Routes>
+            <Route path='/home' element={<HomePage />} />
+            <Route path='/pythons' element={<PythonPage />} />
+            <Route path='/wild_hogs' element={<HogPage />} />
+            <Route path='/carps' element={<CarpPage />} />
+            <Route path='/about' element={<AboutPage />} />
+            <Route path='/contact' element={<ContactPage />} />
 
-          <Route path='/' element={<HomePage />} />
-        </Routes>
+            <Route path='/' element={<HomePage />} />
+          </Routes>
+        </div>
       </div>
       
     </Router>

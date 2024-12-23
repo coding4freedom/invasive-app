@@ -1,8 +1,15 @@
 import React from 'react';
+import '../assets/nature.jpg'
+import './HomePage.css';
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className='home'>
+      <h1 className='title-home'>Help Save Nature By staying Informed</h1>
+      <p className="para-home">
+        Take sometime to learn about some of the invasive species that are destroying our various ecosystems.
+      </p>
+    </div>
   )
 }
 

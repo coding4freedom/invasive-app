@@ -1,8 +1,5 @@
 
-.side-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
+.side-bar {    
     height: 100vh;
     width: 300px;
     padding-top: 8rem;
@@ -15,7 +12,16 @@
 .logo__side-bar {
     width: 70px;
     height: auto;
+    margin-bottom: 8rem;
 }
 span {
     color: green;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: .5rem;
+    font-size: 1.5rem;
 }
