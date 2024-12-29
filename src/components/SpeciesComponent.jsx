@@ -5,9 +5,9 @@ import './SpeciesComponent.css';
 
 const SpeciesComponent = ({ tile }) => {
   return (
-    <Link to={tile.path} className='tile-link'>
+    <Link to={tile.path} className='title-link'>
         <div className="tile">
-            <img src={tile.src} alt="tile image" className={`tile-img ${tile.name}`}/>
+            <img src={tile.src} alt="tile image" className={`tile-img img${tile.id}`}/>
             <span className="tile-text">{tile.title}</span>
         </div>
     </Link>
