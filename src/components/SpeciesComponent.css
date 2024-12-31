@@ -26,5 +26,6 @@
 }
 
 .img2 {
-    background-position: center;
+    object-fit: fill;
+    
 }

@@ -18,8 +18,9 @@ function App() {
         <SideBarComponent />
         <div className="main-content">        
           <Routes>
-            <Route path='/home' element={<HomePage />} />
+            <Route path='/home/*' element={<HomePage />} />
             <Route path='/pythons' element={<PythonPage />} />
+            <Route path='/pythons1' element={<PythonPage />} />
             <Route path='/wild_hogs' element={<HogPage />} />
             <Route path='/carps' element={<CarpPage />} />
             <Route path='/about' element={<AboutPage />} />
