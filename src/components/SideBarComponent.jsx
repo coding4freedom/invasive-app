@@ -10,7 +10,7 @@ const SideBarComponent = () => {
         {id: 1, label: 'Pythons', path: '/pythons'},
         {id: 2, label: 'Hogs', path: '/wild_hogs'},
         {id: 3, label: 'Carps', path: '/carps'},
-        {id: 4, label: 'About', path: '/about'},
+        {id: 4, label: 'About Us', path: '/about'},
         {id: 5, label: 'Contact', path: '/contact'},
     ];
 

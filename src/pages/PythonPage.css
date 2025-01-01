@@ -1,0 +1,13 @@
+
+.python {
+    width: 100%;
+    height: 100%;   
+    background-image: url('../assets/everglades.jpg');
+    background-size: cover;
+    opacity: .8;
+    z-index: -1;
+}
+
+.python-header {
+    text-align: center;
+}
