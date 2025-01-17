@@ -1,6 +1,6 @@
 const contentData = [
     {
-        id: 'pythons',
+        id: 'pythons',        
         header: 'The Burmese Python',
         introPara: "The non-native Burmese python has become a very devastating snake for the Florida Everglades ecosystem. Due to the Burmese python not having natural predators, they become very large by consuming nearly all the native creatures. Some of these animals are mainly mammals, birds, reptiles of varies sizes. The average size of Burmese python are from 8 to 10 feet, but can get up to 26 feet and weights of more than 200 pounds.",
         imgUrl: '',
@@ -12,7 +12,7 @@ const contentData = [
         control: "Florida has various methods to curve the ecological impact of the Burmese python. The brief overview of how Florida deals the python problem programs to eliminate the python numbers, public awareness efforts, monitoring systems and legal measures. Legally Burmese pythons are ban from release and listed as prohibited species in Florida. Some pythons are captured and microchipped to track there movements and travel patterns. Florida has an python elimination program cash reward based on size of snakes and how many are removed."
     },
     {
-        id: 'hogs',
+        id: 'hogs',        
         header: '',
         introPara: "",
         imgUrl: '',
@@ -24,7 +24,7 @@ const contentData = [
         control: "",
     },
     {
-        id: 'carps',
+        id: 'carps',        
         header: '',
         introPara: "",
         imgUrl: '',
@@ -34,5 +34,7 @@ const contentData = [
         diet: "",
         history: "",
         control: "",
-    }
-]
+    },
+];
+
+export default contentData;
