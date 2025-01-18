@@ -1,8 +1,18 @@
 import React from 'react';
+import ContentComponent from '../components/ContentComponent';
+import contentLoad from '../data/contentData';
 
 const CarpPage = () => {
+  const content = contentLoad.find((page) => page.id === 'carps');
+
+  if (!content) {
+    return <div>Content Not Found</div>
+  }
   return (
-    <div>CarpPage</div>
+    <ContentComponent
+      content={content} 
+      className='carp'
+    />
   )
 }
 
