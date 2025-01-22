@@ -16,7 +16,7 @@ const ContentComponent = ({content, className}) => {
                 {content.introPara}
               </p>
               <figure className="image-wrapper">
-                <img src={content.imgUrl} alt="" className={content.imgClass} />
+                <img src={content.imgUrl} alt={`${content.imgAuth || ''}`} className={content.imgClass} />
                 <figcaption>{content.caption}</figcaption>
               </figure>
             </section>
