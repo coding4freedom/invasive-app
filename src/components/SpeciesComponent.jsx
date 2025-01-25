@@ -9,8 +9,7 @@ const SpeciesComponent = ({ tile }) => {
         <div className="tile">
             <img src={tile.src} alt="tile image" className={`tile-img img${tile.id}`}/>
             <span className="tile-text">{tile.title}</span>
-        </div>
-        {console.log(tile.path)}        
+        </div>             
     </Link>
   )
 }

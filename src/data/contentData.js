@@ -23,7 +23,7 @@ const contentData = [
         nativePara: "Europa, Asia, North Africa",
         diet: "Open to eating a wide range of food wild hogs are omnivores. On the plant side hogs eat:  roots, fruits, nuts, seeds, corps, sugarcane. When it comes to animals: insects, worms, small mammals, bird eggs, reptiles, and amphibians.",
         history: "Seeing as wild hogs have a long history in the US dating back to 1500's during the Spanish explorers. Also the rise of sport hunting throughout the 20th century its hard to point to one single event. Domesticated pigs escapted and interbred with wild ones creating the population we have today. ",
-        control: "",
+        control: "Since wild hogs are spread across many states, there are some factors that make it hard to deal with wild hog population. Rapid reproduction and highly adaptable proves to be a very challenge situation to overcome. Government agencies and farmers employ various method to deal with wild hog. Some of these techniques include trapping, hunting, fencing and gene targeting research. Many states allow hunting of wild hogs all year round. Currently research is underway to develop toxins that only target wild hogs.",
     },
     {
         id: 'carps',        
