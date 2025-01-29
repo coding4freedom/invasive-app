@@ -27,16 +27,16 @@ const contentData = [
     },
     {
         id: 'carps',        
-        header: '',
+        header: "Asian Carp",
         imgAuth: '',
-        introPara: "",
+        introPara: "Asian carp are a group of invasive fish species that have spread across U.S. waterways, primarily in the Mississippi River basin and surrounding areas. These fish include bighead, silver, grass, and black carp. Originally brought to the U.S. in the 1960s and 1970s for aquaculture and pest control, they escaped into the wild and have since spread rapidly. With no natural predators and high reproductive rates, they threaten native fish populations and ecosystems.",
         imgUrl: '',
         imgClass: 'carp-img',
         caption: '',
-        nativePara: "",
-        diet: "",
-        history: "",
-        control: "",
+        nativePara: "Eastern Asia, including China and Russia",
+        diet: "Asian carp have different diets depending on the species. Bighead and silver carp filter-feed on plankton, which disrupts food chains for native fish. Grass carp primarily eat aquatic vegetation, leading to habitat destruction. Black carp feed on mollusks, endangering native mussel populations.",
+        history: "Asian carp were introduced to the U.S. in the 1960s and 1970s to help control algae and aquatic weeds in fish farms and wastewater treatment facilities. Flooding events allowed them to escape into the Mississippi River, where they spread uncontrollably. Their rapid reproduction and lack of predators have made them one of the most problematic invasive fish species in the U.S.",
+        control: "Controlling Asian carp is difficult due to their high reproduction rates and ability to outcompete native fish. Federal and state agencies use electric barriers, commercial fishing, and netting to reduce populations. Efforts are also underway to prevent their spread into the Great Lakes, where they could devastate native fisheries. Research is being conducted on targeted poisons and genetic control methods to limit their numbers.",
     },
 ];
 
