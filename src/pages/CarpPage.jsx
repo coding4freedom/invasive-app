@@ -1,6 +1,7 @@
 import React from 'react';
 import ContentComponent from '../components/ContentComponent';
 import contentLoad from '../data/contentData';
+import './CarpPage.css';
 
 const CarpPage = () => {
   const content = contentLoad.find((page) => page.id === 'carps');

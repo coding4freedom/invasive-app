@@ -28,7 +28,7 @@ const contentData = [
     {
         id: 'carps',        
         header: "Asian Carp",
-        imgAuth: '',
+        imgAuth: 'Photo by Mathew Benoit on Unsplash',
         introPara: "Asian carp are a group of invasive fish species that have spread across U.S. waterways, primarily in the Mississippi River basin and surrounding areas. These fish include bighead, silver, grass, and black carp. Originally brought to the U.S. in the 1960s and 1970s for aquaculture and pest control, they escaped into the wild and have since spread rapidly. With no natural predators and high reproductive rates, they threaten native fish populations and ecosystems.",
         imgUrl: '',
         imgClass: 'carp-img',
