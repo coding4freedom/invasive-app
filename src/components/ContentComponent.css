@@ -8,7 +8,21 @@ h1 {
 h3 {
     font-size: 1.8rem;
 }
+h1, span {
+    color: green;
+    font-weight: bold;
+}
 p, span {
     font-size: 1.2rem;
 }
 
+.content {
+    overflow: scroll;
+}
+
+.subtle {
+    padding: .5rem 2rem;
+    border-radius: 6px;
+    background-color: #1a1a1a;
+    opacity: .8;
+}

@@ -14,10 +14,6 @@
     height: auto;
     margin-bottom: 8rem;
 }
-span {
-    color: green;
-}
-
 .tabs {
     display: flex;
     flex-direction: column;

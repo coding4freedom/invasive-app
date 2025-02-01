@@ -8,7 +8,7 @@ const ContentComponent = ({content, className}) => {
 
     return(
         <div className={`content wrap ${className || ''}`}>
-          <div className="row">
+          <div className="row subtle">
             <h1 className="content-header">{content.header}</h1>
             <section className="intro">
               <h3 className="intro-header">Intro</h3>
