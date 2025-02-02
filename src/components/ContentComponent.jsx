@@ -3,7 +3,7 @@ import React from 'react';
 import './ContentComponent.css';
 
 
-const ContentComponent = ({content, className}) => {
+const ContentComponent = ({content, className, imgUrl}) => {
     
 
     return(
@@ -16,7 +16,7 @@ const ContentComponent = ({content, className}) => {
                 {content.introPara}
               </p>
               <figure className="image-wrapper">
-                <img src={content.imgUrl} alt={`${content.imgAuth || ''}`} className={content.imgClass} />
+                {imgUrl && <img src={imgUrl} alt={`${content.imgAuth || ''}`} className={content.imgClass} />}
                 <figcaption>{content.caption}</figcaption>
               </figure>
             </section>

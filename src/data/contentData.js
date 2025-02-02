@@ -4,7 +4,7 @@ const contentData = [
         header: 'The Burmese Python',
         imgAuth: '',
         introPara: "The non-native Burmese python has become a very devastating snake for the Florida Everglades ecosystem. Due to the Burmese python not having natural predators, they become very large by consuming nearly all the native creatures. Some of these animals are mainly mammals, birds, reptiles of varies sizes. The average size of Burmese python are from 8 to 10 feet, but can get up to 26 feet and weights of more than 200 pounds.",
-        imgUrl: '',
+        imgUrl: "../assets/burmese-python.jpg",
         imgClass: 'python-img',
         caption: 'Burmese Python',
         nativePara: "India, Lower China, Malay Peninsula and some East Indies islands",
